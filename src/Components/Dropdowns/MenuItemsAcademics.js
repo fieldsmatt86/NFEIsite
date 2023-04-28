@@ -1,21 +1,26 @@
-export const MenuItems = [
+export const MenuItemsAcademics = [
     {
-        title: 'Marketing',
+        title: 'Curriculum',
         path:   '/marketing',
         cName: 'dropdown-link'
     },
     {
-        title: 'Consulting',
+        title: 'State Programs',
         path:   '/consulting',
         cName: 'dropdown-link'
     },
     {
-        title: 'Design2',
+        title: 'District Programs',
         path:   '/design',
         cName: 'dropdown-link'
     },
     {
-        title: 'Development',
+        title: 'Federal Programs',
+        path:   '/development',
+        cName: 'dropdown-link'
+    },
+    {
+        title: 'Homeschooling',
         path:   '/development',
         cName: 'dropdown-link'
     }

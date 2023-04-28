@@ -1,21 +1,31 @@
-export const MenuItems = [
+export const MenuItemsAthletics = [
     {
-        title: 'Marketing',
+        title: 'Athletic Training',
         path:   '/marketing',
         cName: 'dropdown-link'
     },
     {
-        title: 'Consulting',
+        title: 'Booster Club',
         path:   '/consulting',
         cName: 'dropdown-link'
     },
     {
-        title: 'Design2',
+        title: 'Calendar',
         path:   '/design',
         cName: 'dropdown-link'
     },
     {
-        title: 'Development',
+        title: 'Coaches',
+        path:   '/development',
+        cName: 'dropdown-link'
+    },
+    {
+        title: 'Sports Physicals',
+        path:   '/development',
+        cName: 'dropdown-link'
+    },
+    {
+        title: 'Trophy Room',
         path:   '/development',
         cName: 'dropdown-link'
     }

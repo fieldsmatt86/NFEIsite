@@ -1,21 +1,21 @@
-export const MenuItems = [
+export const MenuItemsEnrollment = [
     {
-        title: 'Marketing',
+        title: 'Student Registration',
         path:   '/marketing',
         cName: 'dropdown-link'
     },
     {
-        title: 'Consulting',
+        title: 'Kindergarten Registration',
         path:   '/consulting',
         cName: 'dropdown-link'
     },
     {
-        title: 'Design2',
+        title: 'Immunization Requirements',
         path:   '/design',
         cName: 'dropdown-link'
     },
     {
-        title: 'Development',
+        title: 'Student Withdrawal',
         path:   '/development',
         cName: 'dropdown-link'
     }

@@ -1,21 +1,21 @@
-export const MenuItems = [
+export const MenuItemsSchoolBoard = [
     {
-        title: 'Marketing',
+        title: 'Board Members',
         path:   '/marketing',
         cName: 'dropdown-link'
     },
     {
-        title: 'Consulting',
+        title: 'Commitees',
         path:   '/consulting',
         cName: 'dropdown-link'
     },
     {
-        title: 'Design2',
+        title: 'Agendas',
         path:   '/design',
         cName: 'dropdown-link'
     },
     {
-        title: 'Development',
+        title: 'Meeting Dates',
         path:   '/development',
         cName: 'dropdown-link'
     }

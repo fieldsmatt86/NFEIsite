@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { MenuItems } from '../MenuItems';
 import { Link } from 'react-router-dom';
 import './DropdownSchoolBoard.css';
+import { MenuItemsSchoolBoard } from '../Dropdowns/MenuItemsSchoolBoard';
+
 
 
 function Dropdown () {
@@ -15,7 +17,7 @@ function Dropdown () {
                 onClick={handleClick}
                 className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
             >
-                {MenuItems.map((item, index) => {
+                {MenuItemsSchoolBoard.map((item, index) => {
                     return (
                         <li key={index}>
                             <Link 

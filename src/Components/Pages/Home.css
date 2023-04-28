@@ -1,0 +1,387 @@
+.AppHeader {
+    display: flex;
+    text-align: right;
+    height: 57px;
+    box-shadow: blue;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0px;
+    justify-content:right;
+    background-color: darkblue;
+  
+  }
+  
+  .AH {
+    padding-top: 15px;
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .AHR {
+    color: darkblue;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    
+  }
+  
+  .Alerts {
+    background-color: lightgrey;
+    height: 90px;
+    border: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .AA {
+    background-color: white;
+    height: 120px;
+    width: 50%;
+    padding-left: 35px;
+    }
+  
+    .NFEI {
+      padding-top: 10px;
+    }
+  
+  .AAB {
+    background-color: white;
+    height: 120px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Body {
+    background-color: lightsteelblue;
+    display: flex;
+    Flex-direction: column;
+  }
+  
+  .BodyOne {
+   background-color: darkblue;
+   display: flex;
+   padding-top: 1px;
+  }
+  
+  .BodyOneBT {
+    background-color: white;
+    height: 70px;
+    flex: 1;
+    display: flex;
+    color: rgb(45, 44, 44);
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: tahoma;
+    font-weight: 500;
+    font-size: 20px;
+    width: 50%;
+  }
+  
+  .BT {
+    background-color: white;
+    font: small;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    }
+  
+  .BodyTwo {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .NFEIgrads {
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .BodyThree {
+    background-color: white;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+  }
+  
+  .B3a{
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 350px;
+
+  }
+  
+  .BB {
+    background-color: white;
+    height: 350px;
+    width: 55%;
+    display: flex;
+  }
+  
+  .NFEIgrads2 {
+    width: 100%;
+    height: 350px;
+    margin-left: -500px;
+    margin-top: -40px;
+  }
+  
+  .BBB {
+    background-color: black;
+    height: 40px;
+    width: 300px;
+  }
+  
+  .BB1a {
+    background-color: white;
+  
+    height: 150px;
+    width: 300px;
+    font-size: 35px;
+    color: darkblue;
+  }
+  
+  .BB1b {
+    background-color: white;
+    height: 150px;
+    width: 300px;
+  }
+  
+  .BB1c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: darkblue;
+    height: 50px;
+    width: 175px;
+    border-style: solid;
+    border-color: lightsteelblue;
+  }
+  
+  .BodyFour {
+    background-color: white;
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .BC {
+    font-size: 35px;
+    color: blue;
+  }
+  
+  .BD {
+   width: 900px;
+  }
+  
+  .BodyFive {
+    background-color: white;
+    height: 725px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+  }
+  
+  .B5a { 
+    outline-width: 3px;
+    outline-color: black;
+    outline-style: double;
+    background-color: white;
+    width: 470px;
+    height: 680px;
+  }
+  
+  .B5b { 
+    outline-width: 3px;
+    outline-color: black;
+    outline-style: double;
+    background-color: white;
+    width: 470px;
+    height: 680px;
+  
+  }
+  
+  
+  .BodySix {
+    background-color: white;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+  }
+  
+  .B6a {
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    width: 250px;
+    height: 150px;
+    color: darkblue;
+    font-size: 35px;
+    z-index: 10;
+  }
+  .B6aa {
+    background-color: white;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -50px;
+    height: 150px;
+    color: black;
+    font-size: 20px;
+    z-index: 10;
+  }
+  
+  .B6b {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+  }
+  
+  .B6ba {
+    background-color: lightsteelblue;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 320px;
+    position: absolute;
+  }
+
+  .Body6z {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Body6x {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .B6c {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    
+  }
+  
+  .B6c:hover {
+    flex-grow: .3;
+  }
+  
+  .Bottom1 {
+   background-color: white;
+   height: 250px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+  }
+  
+  .B1a {
+    background-color: blue;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .B1b {
+    background-color: blue;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    margin-right: -100px;
+  }
+  
+  .B1c {
+    background-color: white;
+    height: 175px;
+    width: 275px;
+    display: flex;
+  }
+  
+  .Bottom2 {
+   background-color: rgb(48, 48, 129);
+   height: 415px;
+   display: flex;
+  }
+  
+  .Bottom2Left {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    width: 65%;
+  }
+  
+  .B2L1 {
+    font-size: 30px;
+  }
+  
+  .B2M1 {
+    font-size: 13px;
+  }
+  
+  .B2M2 {
+    font-size: 14px;
+  }
+  
+  .Bottom2Middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 33%;
+  }
+  
+  .Bottom2Right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 33%;
+    height: 400px;
+    justify-content: space-evenly;
+  }
+  
+  .B2R2 {
+   display: flex;
+   height: 200px;
+    }
+  
+  .B2R2a {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .Credits {
+    background-color: lightgray;
+    height: 50px
+   }

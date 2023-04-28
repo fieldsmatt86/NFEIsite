@@ -1,22 +1,8 @@
-export const MenuItems = [
+export const MenuItemsCovid = [
     {
-        title: 'Marketing',
+        title: '2022-2023',
         path:   '/marketing',
         cName: 'dropdown-link'
-    },
-    {
-        title: 'Consulting',
-        path:   '/consulting',
-        cName: 'dropdown-link'
-    },
-    {
-        title: 'Design2',
-        path:   '/design',
-        cName: 'dropdown-link'
-    },
-    {
-        title: 'Development',
-        path:   '/development',
-        cName: 'dropdown-link'
     }
+   
 ]
