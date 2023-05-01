@@ -38,17 +38,17 @@ function TopNavbar() {
             
                 </div>
                 <ul className={click ? 'topnav-menu active' : 'topnav-menu'}>
-                    <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <li className='topnav-item'>
+                        <Link to='/' className='topnav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
                     <li 
-                    className='nav-item'
+                    className='topnav-item'
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}
                     >
-                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/services' className='topnav-links' onClick={closeMobileMenu}>
                             Services <i className='fas fa-caret-down' />
                         </Link>
                         {dropdown && <Dropdown />}

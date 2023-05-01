@@ -32,13 +32,15 @@
     margin-right: 2rem;
   }
   
-  .nav-item {
+  .topnav-item {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 20px;
+    background-color: blue;
+    
   }
   
-  .nav-links {
+  .topnav-links {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;

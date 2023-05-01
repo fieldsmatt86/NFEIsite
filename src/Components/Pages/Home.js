@@ -1,14 +1,15 @@
 import React from 'react'
 import '../../App.css';
-import NFEI from './img/nfei logo.png';
-import NFEIgrads from './img/NFEI grads.jpg';
-import Kids from '../img/IMG_1936.jpg';
-import KidObama from '../img/IMG_4069.JPG';
-import NSC from '../img/IMG_1969.jpg';
-import WSC from '../img/IMG_4069.JPG';
-import SafeSay from '../img/safe 2 say pic.jpg';
-import SACS from '../img/accred-seal-blues-1.png';
+import Kids from './img/IMG_1936.jpg';
+import KidObama from './img/IMG_4069.JPG';
+import NSC from './img/IMG_1969.jpg';
+import WSC from './img/IMG_4069.JPG';
+import SafeSay from './img/safe 2 say pic.jpg';
+import SACS from './img/accred-seal-blues-1.png';
 import './Home.css';
+import ImageSlider from '../ImageSlider';
+import { SliderData } from '../SliderData';
+
 
 
 
@@ -39,12 +40,18 @@ export default function Home () {
               <div className="BodyFour">
                 <div className="BC"> News & Events </div>
               <div className="BD"> There's always something happening in Eagle Land. Check here often for a complete listing of district and building events plus news and announcements about our students and staff. 
-</div>
+                </div>
               </div>
               <div className="BodyFive">
-              <div className="B5a">Latest News</div>
-              <div className="B5b">Upcoming Events</div>
-
+               
+                  <div className="BodyFivea">
+                        <div className="B5a">
+                            <ImageSlider slides={SliderData} />;
+                        </div>
+                        <div className="B5b">
+                            <ImageSlider slides={SliderData} />;
+                        </div>
+                  </div>
               </div>
               <div className="BodySix">
               <div>
@@ -93,7 +100,6 @@ export default function Home () {
            
 
             </div>
-            <h1 className='home'>NFEI</h1>
             
         </>
     )

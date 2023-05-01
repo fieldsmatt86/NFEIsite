@@ -3,8 +3,10 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import TopNavbar from './Components/TopNavbar';
 import MidNavbar from './Components/MidNavbar';
+import BottomBar from './Components/BottomBar';
 import { BrowserRouter as Router, Routes, Route } from 
 'react-router-dom';
+
 
 import Services from './Components/Pages/Services'
 import Products from './Components/Pages/Products'
@@ -31,9 +33,8 @@ function App() {
         <Route path='/marketing' exact element={<Marketing/>} />
         <Route path='/consulting' exact element={<Consulting/>} />
 
-
-
       </Routes>
+      <BottomBar />
     </Router>
     
   );

@@ -3,6 +3,8 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './MidNavbar.css';
 import Dropdown from './Dropdown';
+import NFEI from '../Components/Pages/img/nfei logo.png';
+
 
 
 function MidNavbar() {
@@ -31,9 +33,9 @@ function MidNavbar() {
         return (
         <>
             <nav className='midnavbar'>
-                <Link to='/'
-                className='navbar-logo'>
-                    NFEI logo<i class='fab fa-firstdraft' />
+                <Link to='/' className='midnavbar-logo'>
+                <img src={NFEI} className="" alt="" />
+                <i class='fab fa-firstdraft' />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}
@@ -41,27 +43,27 @@ function MidNavbar() {
             
                 </div>
                 <ul className={click ? 'midnav-menu active' : 'midnav-menu'}>
-                    <li className='nav-item'>
+                    <li className='midnav-item'>
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Calendar
                         </Link>
                     </li>
                     <li 
-                    className='nav-item'
+                    className='midnav-item'
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}
                     >
-                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/services' className='midnav-links' onClick={closeMobileMenu}>
                             Quicklinks <i className='fas fa-caret-down' />
                         </Link>
                         {dropdown && <Dropdown />}
                     </li>
-                    <li className='nav-item'>
+                    <li className='midnav-item'>
                         <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                             Resources
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    <li className='midnav-item'>
                         <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
                             Search Icon
                         </Link>
